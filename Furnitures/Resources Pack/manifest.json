@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Furniture Addons Test",
+        "name": "Custom Furniture RES",
+        "uuid": "4ae686ff-5536-4e55-9ff1-20fd4c7a2c48",
+        "version": [1,0,0],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Furniture Addons Test",
+            "type": "resources",
+            "uuid": "689d3bcc-4a65-49ea-9bba-ca32f4a23367",
+            "version": [1,0,0]
+        }
+    ]
+}

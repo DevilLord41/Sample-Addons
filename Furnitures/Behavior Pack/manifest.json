@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Furniture Addons Test",
+        "name": "Custom Furniture DAT",
+        "uuid": "95cdfad6-9c63-4334-bdf3-d80b5bebe2c6",
+        "version": [1,0,0],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Furniture Addons Test",
+            "type": "data",
+            "uuid": "6e64de71-60d3-427c-bc1b-dcba2cee3ebe",
+            "version": [1,0,0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "4ae686ff-5536-4e55-9ff1-20fd4c7a2c48",
+            "version": [1, 0, 0]
+        }
+    ]
+}

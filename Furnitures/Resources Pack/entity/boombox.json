@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "furnitures:boombox",
+      "materials": { "default": "default" },
+      "textures": {
+        "default": "textures/furniture/boombox"
+      },
+      "geometry": {
+        "default": "geometry.boombox"
+      },
+      "render_controllers": [ "controller.render.boombox" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

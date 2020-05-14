@@ -1,0 +1,24 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "furnitures:chair",
+        "materials": {
+          "default": "default"
+        },
+        "textures": {
+          "chair": "textures/furniture/chair",
+          "light": "textures/furniture/chair_light",
+          "dark": "textures/furniture/chair_dark"
+        },
+        "geometry": {
+          "default": "geometry.chair"
+        },
+        "render_controllers": ["controller.render.chair"],
+        "spawn_egg": {
+          "texture": "spawn_egg",
+          "texture_index": 0
+        }
+      }
+    }
+  }

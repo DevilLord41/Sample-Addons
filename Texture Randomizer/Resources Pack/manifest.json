@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Furniture Randomize Test",
+        "name": "Furniture Randomize RES",
+        "uuid": "d652732f-eea7-429b-b018-94428933a362",
+        "version": [1,0,0],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Furniture Randomize Test",
+            "type": "resources",
+            "uuid": "1a8a9a46-f2e4-469a-acbd-8cef13129b29",
+            "version": [1,0,0]
+        }
+    ]
+}

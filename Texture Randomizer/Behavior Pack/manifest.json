@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Furniture Randomize Test",
+        "name": "Furniture Randomize DAT",
+        "uuid": "577805fd-0a38-4912-b0b9-c69684efcbbf",
+        "version": [1,0,0],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Furniture Randomize Test",
+            "type": "data",
+            "uuid": "cce17e21-fd73-4ebe-990c-8b58fe050e72",
+            "version": [1,0,0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "d652732f-eea7-429b-b018-94428933a362",
+            "version": [1, 0, 0]
+        }
+    ]
+}

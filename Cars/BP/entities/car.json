@@ -1,0 +1,82 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "newmob:car",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "mobil" ]
+      },
+      "minecraft:navigation.walk": {
+        "can_float": false,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:health": {
+        "value": 50,
+        "max": 50
+      }, 
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+	    "minecraft:scale": {
+        "value": 1.5
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:breathable": {
+        "breathesAir": true,
+        "breathesWater": true
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 10.0
+      },
+      "minecraft:rideable": {
+          "seat_count": 2,
+          "family_types": [
+            "player"
+          ],
+          "interact_text": "Get In",
+          "seats": [
+            {
+              "position": [ -0.8,0.2,-0.3 ],
+              "min_rider_count": 0,
+              "max_rider_count": 1
+            },
+            {
+              "position": [ -0.8,0.2,-0.3 ],
+              "min_rider_count": 2,
+              "max_rider_count": 2
+            },
+            { 
+              "position": [ 0, 0.2, -0.3 ],
+              "min_rider_count": 2,
+              "max_rider_count": 2
+            }
+        ]
+      },
+      "minecraft:is_saddled": {
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:behavior.player_ride_tamed": {
+      },
+      "minecraft:collision_box": {
+        "width": 1.5,
+        "height": 1.5
+      },
+      "minecraft:nameable": {},
+	    "minecraft:physics": {}
+    }
+  }
+}

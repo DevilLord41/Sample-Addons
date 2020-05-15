@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Car RP",
+    "description": "Cars RP",
+    "uuid": "75eee026-6eba-40b4-be69-7e6bf7f389d1",
+    "platform_locked": false,
+    "min_engine_version": [1, 8, 0],
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "Cars RP",
+      "type": "resources",
+      "uuid": "a40068ab-4460-447e-a24d-ce91a11693a2",
+      "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4149c787-a8ad-4db4-acfb-844c00d8121c",
+      "version": [0, 0, 1]
+    }
+  ]
+}

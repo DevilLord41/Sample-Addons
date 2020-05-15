@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Cars BP",
+    "description": "Cars BP",
+    "uuid": "4149c787-a8ad-4db4-acfb-844c00d8121c",
+    "platform_locked": false,
+    "min_engine_version": [1, 8, 0],
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "Cars BP",
+      "type": "data",
+      "uuid": "e8256a9e-18b7-4ebc-943e-a93cace94d9b",
+      "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "75eee026-6eba-40b4-be69-7e6bf7f389d1",
+      "version": [0, 0, 1]
+    }
+  ]
+}
